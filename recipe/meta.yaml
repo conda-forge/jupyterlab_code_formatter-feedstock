@@ -17,11 +17,11 @@ requirements:
   build:
     - nodejs
   host:
-    - jupyterlab <1
+    - jupyterlab
     - pip
     - python
   run:
-    - jupyterlab <1
+    - jupyterlab
     - nodejs
     - python >=3.6
 
