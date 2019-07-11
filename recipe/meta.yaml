@@ -19,7 +19,7 @@ requirements:
   host:
     - jupyterlab >=1
     - pip
-    - python
+    - python >= 3.6
   run:
     - jupyterlab >=1
     - nodejs
