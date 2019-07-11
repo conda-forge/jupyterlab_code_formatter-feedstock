@@ -1,5 +1,5 @@
 {% set name = "jupyterlab_code_formatter" %}
-{% set version = "0.2.3" %}
+{% set version = "0.3.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ryantam626/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 577f6aa96aa6951f9308ed5ba4e036bc539a86149d24da34f35b5b6bc832a127
+  sha256: 811c453a9be02bec7c3de5738a08ebc5f34ebeab311be67c09028ccb1df4d9c7
 
 build:
   number: 0
@@ -17,11 +17,11 @@ requirements:
   build:
     - nodejs
   host:
-    - jupyterlab
+    - jupyterlab >=1
     - pip
-    - python
+    - python >=3.6
   run:
-    - jupyterlab
+    - jupyterlab >=1
     - nodejs
     - python >=3.6
 
