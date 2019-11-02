@@ -23,6 +23,7 @@ requirements:
   run:
     - jupyterlab >=1
     - nodejs
+    - packaging
     - python >=3.6
 
 test:
