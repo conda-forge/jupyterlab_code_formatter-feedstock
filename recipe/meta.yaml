@@ -1,5 +1,5 @@
 {% set name = "jupyterlab_code_formatter" %}
-{% set version = "0.7.0" %}
+{% set version = "1.0.2" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ryantam626/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 4c05dcf258fe8567651915b93222ea524d4fb869a07e9ad0dd53f8a1b5f25349
+  sha256: 1501680d9e72cde36f410839142bf2e7fc9cfd795248ff9f6a7859d7d1c7e03e
 
 build:
   number: 0
