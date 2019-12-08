@@ -6,19 +6,17 @@ package:
   version: "{{ version }}"
 
 source:
-  url: https://github.com/ryantam626/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 5e721119c77d88d8215a8ef401dbc56b90ccc4cd10f269b5d37d501ebf94293b
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+  sha256: d47b6844fe03f1f83c11ea56c4136d881145322ec13f7f726c0f8ac4cf71ff4f
 
 build:
   number: 0
   noarch: python
 
 requirements:
-  build:
-    - nodejs
   host:
-    - jupyterlab >=1
     - pip
+    - poetry
     - python >=3.6
   run:
     - jupyterlab >=1
