@@ -1,24 +1,22 @@
 {% set name = "jupyterlab_code_formatter" %}
-{% set version = "0.7.0" %}
+{% set version = "1.0.3" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source:
-  url: https://github.com/ryantam626/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 4c05dcf258fe8567651915b93222ea524d4fb869a07e9ad0dd53f8a1b5f25349
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+  sha256: d47b6844fe03f1f83c11ea56c4136d881145322ec13f7f726c0f8ac4cf71ff4f
 
 build:
   number: 0
   noarch: python
 
 requirements:
-  build:
-    - nodejs
   host:
-    - jupyterlab >=1
     - pip
+    - poetry
     - python >=3.6
   run:
     - jupyterlab >=1
