@@ -27,6 +27,10 @@ requirements:
 test:
   imports:
     - jupyterlab_code_formatter
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/ryantam626/jupyterlab_code_formatter
