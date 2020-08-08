@@ -1,9 +1,3 @@
-travis:
-  secure:
-    BINSTAR_TOKEN: Bxjy8ds3W6OIeBMQTNK969zlV6TZ89GT8tcpcKo+y6ZNwZ3Q92Jq+hZGrRrAnYLFbjDo0Ek9jfSkHivwpMSNYMpZaKMgtW90Ai+lSXkO+rPpSyEXM4I0xZ8WSEilme3mWIsit+6BnaHkS75JQXBtRbnf68ogq7QUUadSFoZeY//vWz2XMAuJrHra6XzJ/zfS3gnvvhkfJcomeT2+VHQq+UJEhyobbWmp/oq9pfmAz6/+DCC/R+xvWHCujjwLc8xibajr4GKyYJiOLcZlFuHHtj4qdjRWU3w+iJBYbp8ToS5sE6tS1vzvZ6+I1+V/56ocaTRXarDkO1n+h5GSmr7HT4pyzyvqxTUqnakVwz3+5z4DM/HU/0JSU6TFooUiNE9bghx8bDD23eMx9g2eQr/i3f1w+tIkFnoFFOPcpg8QwTSEmyiSfrjmS75g8t2+8zzyPA7raLH/1jHJP29ys+fYTlIXqXEOkHmYYeuqe4qVAE3PnhQdS12Kjjp2E7z5IcUR+2YVhdFknnE/QoL4QTeqN2QQtHOHC+Y7udCvDE1FBLsvTB9cASzeAKtk0HGvjS9+fBDt2/YPmpDPrul2h2wLnF/fxmDbqSwBattvC3T3zOzSuaANOpBExE5lGmygXF7ldtHhQITY3+71qfisJoKdLgNWgPiPe494Q6y8+8FXxnk=
-appveyor:
-  secure:
-    BINSTAR_TOKEN: tumuXLL8PU75WMnRDemRy02ruEq2RpNxeK3dz0MjFssnosPm2v4EFjfNB4PTotA1
 conda_forge_output_validation: true
 bot:
   automerge: true
