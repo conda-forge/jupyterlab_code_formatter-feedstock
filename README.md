@@ -5,11 +5,9 @@ Home: https://github.com/ryantam626/jupyterlab_code_formatter
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab_code_formatter-feedstock/blob/master/LICENSE.txt)
 
 Summary: A universal code formatter for JupyterLab.
-
-
 
 Current build status
 ====================
