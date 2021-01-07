@@ -15,6 +15,7 @@ build:
 
 requirements:
   host:
+    - jupyter_packaging
     - pip
     - poetry
     - python >=3.6
