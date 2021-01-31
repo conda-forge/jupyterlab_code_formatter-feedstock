@@ -1,5 +1,5 @@
 {% set name = "jupyterlab_code_formatter" %}
-{% set version = "1.4.2" %}
+{% set version = "1.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eef751e8c86023a095c63e1e9c5efaa3b10ec2878f70695ed1826ab9099a56a2
+  sha256: 6f099a286b429208e990f194af1047edabe2bae328a7d9505fd4fd763c343421
 
 build:
   number: 0
