@@ -10,19 +10,17 @@ source:
   sha256: 1645fd80b99d590d60fe0f3c078c9101ad62dfdbfac5e78b4c2d334896ab526f
 
 build:
-  number: 0
+  number: 1
   noarch: python
+  script: '{{ PYTHON }} -m pip install . --install-option="--skip-npm" -vv'
 
 requirements:
   host:
     - jupyter-packaging
     - pip
-    - poetry
     - python >=3.6
   run:
-    - jupyterlab >=1
-    - nodejs
-    - packaging
+    - jupyterlab >=3
     - python >=3.6
 
 test:

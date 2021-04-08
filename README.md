@@ -36,6 +36,7 @@ Installing `jupyterlab_code_formatter` from the `conda-forge` channel can be ach
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `jupyterlab_code_formatter` can be installed with:
