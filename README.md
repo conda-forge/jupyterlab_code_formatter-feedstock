@@ -146,6 +146,3 @@ Feedstock Maintainers
 * [@dbast](https://github.com/dbast/)
 * [@xhochy](https://github.com/xhochy/)
 
-
-<!-- dummy commit to enable rerendering -->
-
