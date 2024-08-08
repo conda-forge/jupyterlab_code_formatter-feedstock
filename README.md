@@ -3,7 +3,7 @@ About jupyterlab_code_formatter-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab_code_formatter-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/ryantam626/jupyterlab_code_formatter
+Home: https://github.com/jupyterlab-contrib/jupyterlab_code_formatter
 
 Package license: MIT
 

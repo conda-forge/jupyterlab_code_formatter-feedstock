@@ -34,7 +34,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/ryantam626/jupyterlab_code_formatter
+  home: https://github.com/jupyterlab-contrib/jupyterlab_code_formatter
   license: MIT
   license_family: MIT
   license_file: LICENSE
