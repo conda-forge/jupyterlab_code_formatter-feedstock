@@ -144,5 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@dbast](https://github.com/dbast/)
+* [@krassowski](https://github.com/krassowski/)
 * [@xhochy](https://github.com/xhochy/)
 
