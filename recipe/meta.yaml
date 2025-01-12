@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 55adb8fa8b9bd58f0b39e7d3ead6c1e862e9ebc1444a66cdb4233d8dc6351d4b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,17 +19,18 @@ requirements:
     - hatchling >=1.4.0
     - hatch-nodejs-version
     - hatch-jupyter-builder >=0.5
-    - python >=3.7
+    - python {{ python_min }}
     - pip
   run:
     - jupyter_server >=1.21,<3
-    - python >=3.7
+    - python >={{ python_min }}
 
 test:
   imports:
     - jupyterlab_code_formatter
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
